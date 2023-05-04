@@ -1,6 +1,8 @@
-/**
- * сколько ушло времени
- */
+const expectedByInput = new Map([
+  [[7, [2, 5, 6, 1]], [2, 5]],
+  [[3, [2, 1]], [2, 1]]
+]);
+
 expectedByInput.forEach((v, k) => {
   const sum = k[0];
   const numbers = k[1];
